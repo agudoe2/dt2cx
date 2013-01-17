@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.agudoe2.dt2cx"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+    <application
+        android:icon="@drawable/dt2cx"
+        android:label="dt2cx">
+        <activity
+            android:name=".MainActivity"
+            android:label="dt2cx" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    	<activity android:name=".dt2cx" android:label="dt2cx"/>
+	</application>
+</manifest>
